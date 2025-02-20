@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/latter-generator/static/css/main.2fdbb70e.css",
-    "main.js": "/latter-generator/static/js/main.db459fe4.js",
+    "main.js": "/latter-generator/static/js/main.f9427573.js",
     "static/js/453.641ecc97.chunk.js": "/latter-generator/static/js/453.641ecc97.chunk.js",
     "index.html": "/latter-generator/index.html",
     "main.2fdbb70e.css.map": "/latter-generator/static/css/main.2fdbb70e.css.map",
-    "main.db459fe4.js.map": "/latter-generator/static/js/main.db459fe4.js.map",
+    "main.f9427573.js.map": "/latter-generator/static/js/main.f9427573.js.map",
     "453.641ecc97.chunk.js.map": "/latter-generator/static/js/453.641ecc97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fdbb70e.css",
-    "static/js/main.db459fe4.js"
+    "static/js/main.f9427573.js"
   ]
 }
