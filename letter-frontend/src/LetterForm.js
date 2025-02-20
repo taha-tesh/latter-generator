@@ -27,7 +27,7 @@ const LetterForm = () => {
             <form onSubmit={handleSubmit} className="letter-form">
                 <div className="controls">
                     <div className="control-group">
-                        <label>Font:</label>
+                        <label>Font: </label>
                         <select value={font} onChange={(e) => setFont(e.target.value)}>
                             <option value="Arial">Arial</option>
                             <option value="Times New Roman">Times New Roman</option>
@@ -36,7 +36,7 @@ const LetterForm = () => {
                             <option value="Verdana">Verdana</option>
                         </select>
                     </div>
-                    {/* <div className="control-group">
+                    <div className="control-group">
                         <label>Font Size:</label>
                         <input
                             type="number"
@@ -53,7 +53,7 @@ const LetterForm = () => {
                             value={color}
                             onChange={(e) => setColor(e.target.value)}
                         />
-                    </div> */}
+                    </div>
                 </div>
                 <ReactQuill
                     value={content}

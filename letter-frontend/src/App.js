@@ -20,8 +20,9 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<LetterForm />} />
-                <Route path="/letter/:id" element={<LetterViewer />} />
+                <Route path="/" element={<LetterForm />} /> {/* Default route */}
+                <Route path="/latter-generator" element={<LetterForm />} /> {/* Route for /latter-generator */}
+                <Route path="/letter/:id" element={<LetterViewer />} /> {/* Route for viewing a letter */}
             </Routes>
         </Router>
     );
