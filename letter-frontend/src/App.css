@@ -59,7 +59,7 @@ h1 {
 }
 
 .control-group {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   gap: 0.5rem;
 }
