@@ -14,7 +14,7 @@ const LetterForm = () => {
         e.preventDefault();
         const letterData = { content, font, font_size: fontSize, color };
         try {
-            const response = await axios.post('http://127.0.0.1:8000/api/create/', letterData);
+            const response = await axios.post('http://latter-generator.onrender.com/api/create/', letterData);
             setLink(`http://localhost:3000/letter/${response.data.id}/`);
         } catch (error) {
             console.error('Error creating letter:', error);
