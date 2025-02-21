@@ -9,7 +9,7 @@ const LetterViewer = () => {
     useEffect(() => {
         const fetchLetter = async () => {
             try {
-                const response = await axios.get(`http://127.0.0.1:8000/api/${id}/`);
+                const response = await axios.get(`https://latter-generator-backend.onrender.com/api/${id}/`);
                 setLetter(response.data);
             } catch (error) {
                 console.error('Error fetching letter:', error);

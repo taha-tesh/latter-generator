@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zdh(+7dx)vh4d%0xzwj9rb73-h_akbcbxz4e3x(482vy!j!b5u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['latter_generator.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['latter-generator-backend.onrender.com', 'localhost']
 
 
 # Application definition
@@ -56,6 +56,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "latter-generator-backend.onrender.com",
 ]
 
 REST_FRAMEWORK = {
@@ -65,7 +66,7 @@ REST_FRAMEWORK = {
 }
 
 
-ROOT_URLCONF = 'letter_generator.urls'
+ROOT_URLCONF = 'latter_generator.urls'
 CORS_ORIGIN_ALLOW_ALL = True
 
 TEMPLATES = [
@@ -84,7 +85,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'letter_generator.wsgi.application'
+WSGI_APPLICATION = 'latter_generator.wsgi.application'
 
 
 # Database
