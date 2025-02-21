@@ -15,7 +15,7 @@ const LetterForm = () => {
         const letterData = { content, font, font_size: fontSize, color };
         try {
             const response = await axios.post('https://latter-generator-backend.onrender.com/api/create/', letterData);
-            setLink(`https://letter-frontend-ten.vercel.app/letter/${response.data.id}/`);
+            setLink(`https://latter-generator-frontend.onrender.com/letter/${response.data.id}/`);
         } catch (error) {
             console.error('Error creating letter:', error);
         }
